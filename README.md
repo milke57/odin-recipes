@@ -1,2 +1,2 @@
 # odin-recipes
-learning a basic html site
+Making a basic web-page
