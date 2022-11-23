@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(224, 129, 158);
+    font-family: "Times New Roman", sans-serif;
+}
+
+#naslov {
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    background-color: red;
+}
+
+#slika {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.podnaslov {
+    font-size: 30px;
+    background-color: aqua;
+}
+
+.sastojci, .koraci {
+    color: rgb(37, 26, 134);
+    font-size: 22px;
+}
+

@@ -1,0 +1,24 @@
+body {
+    background-color: rgb(84, 165, 154);
+    font-family: "Times New Roman", sans-serif;
+    text-align: center;
+}
+
+
+#glavni-naslov {
+    color:rgb(216, 23, 23);
+    background-color: aqua;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.slika {
+    align-items: center;
+    width: 300px;
+}
+
+#ul-recepti, .recepti{
+    color: rgb(33, 44, 105);
+    font-size: 30px;
+}

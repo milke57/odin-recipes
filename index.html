@@ -5,15 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recepti</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 style="color:#37e60bee;">
+    <h1 id="glavni-naslov">
         Odin Recipes
     </h1>
-    <img src="images/cover.jpg" width="340px">
-    <ul>
-        <li><a href="recipes/lasagna.html">Lasagna</a></li>
-        <li><a href="recipes/mac-and-cheese.html">Mac and cheese</a></li>
-        <li><a href="recipes/chicken-soup.html">Chicken soup</a></li>
+    <img src="images/cover.jpg" class="slika">
+    <div style="text-align: center;">
+        <div style="display: inline-block; text-align: left;">
+            <ul id="ul-recepti">
+                <li><a href="recipes/chicken-soup.html" class="recepti">Chicken soup</a></li>
+                <li><a href="recipes/lasagna.html" class="recepti">Lasagna</a></li>
+                <li><a href="recipes/mac-and-cheese.html" class="recepti">Mac and cheese</a></li>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>
